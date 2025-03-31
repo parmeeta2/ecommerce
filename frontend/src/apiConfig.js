@@ -1,0 +1,1 @@
+export const Api = 'https://ecommerce-4be5.onrender.com/api/v1'
