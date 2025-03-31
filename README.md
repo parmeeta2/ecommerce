@@ -1,33 +1,66 @@
-# REST API for an E-Commerce Application
-I have developed this REST API for an e-commerce application. This API performs all the fundamental CRUD operations of any e-commerce platform with user validation at every step.
+# Ecommerce Application
+  
+*A full-stack ecommerce web application built with modern technologies.*
 
+## 🚀 Features
 
-# Tech Stack
-1. Java
-2. Spring Framework
-3. Spring Boot
-4. Spring Data JPA
-5. Hibernate
-6. MySQL
-   
-# Modules
-1. Login, Logout Module
-2. Seller Module
-3. Customer Module
-4. Product Module
-5. Cart Module
-6. Order Module
-# Features
- 1. Customer and Seller authentication & validation with session token having validity of 1 hour for security purposes
- 2. Seller Features:
-   -Administrator Role of the entire application
-   -Only registered seller with valid session token can add/update/delete products from main database
-   -Seller can access the details of different customers, orders
- 3. Customer Features:
-   -Registering themselves with application, and logging in to get the valid session token
-   -Viewing different products and adding them to cart and placing orders
-   -Only logged in user can access his orders, cart and other features.
+### User Features
+- 🔐 **Authentication:** Secure user registration and login with JWT authentication.
+- 🛒 **Shopping Experience:** Browse, search, and filter products.
+- ➕ **Cart Management:** Add/remove products from the cart.
 
+### Admin Features
+- 🔑 **Admin Authentication:** Secure admin login.
+- 🛍️ **Product Management:** View, add, and delete products.
+- 📊 **User Management:** View user data via an admin dashboard.
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB, Mongoose
+- **Security:** JWT authentication, password hashing with bcrypt
+- **Validation:** Zod
+
+## 🔑 Key Implementations
+- **🔐 Secure Authentication**: JWT-based authentication with salting and hashing for password security.
+- **🛎️ Optimized API Handling**: Efficient database queries with filtering and searching.
+- **📜 Data Validation**: Input validation using Zod for secure and structured data handling.
+
+### Prerequisites
+Ensure you have the following installed:
+- Node.js & npm
+- MongoDB (local or cloud-based, e.g., MongoDB Atlas)
+
+### Installation
+```sh
+# Clone the repository
+git clone https://github.com/parmeeta2/ecommerce.git
+cd ecommerce
+
+# Install backend dependencies
+cd server
+npm install
+
+# Install frontend dependencies
+cd ../client
+npm install
+```
+
+### Run the Application
+```sh
+# Start the backend server
+cd server
+npm start
+
+# Start the frontend client
+cd ../client
+npm start
+```
+
+## 🌟 Why This Project Stands Out
+✅ **Industry-standard authentication & security measures**  
+✅ **Efficient API handling with optimized database queries**  
+✅ **Scalable architecture for future feature expansion**
 
 
 
