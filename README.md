@@ -38,7 +38,7 @@ Update the port number, username and password as per your local database config.
     spring.datasource.username=root
     spring.datasource.password=root
 
-API Root Endpoint
+# API Root Endpoint
 https://localhost:8009/
 
 http://localhost:8009/swagger-ui/index.html#/
